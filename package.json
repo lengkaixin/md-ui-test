@@ -15,7 +15,8 @@
     "bootstrap": "lerna bootstrap --hoist",
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",
-    "pub": "npm run build && lerna publish"
+    "publish": "lerna publish",
+    "pub": "npm run build && npm run publish"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

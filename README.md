@@ -1,8 +1,13 @@
 # lerna_demo
 
-1. 统一发布所有子包
-2. 单独发布子包
+1. 统一发布所有子包 `lerna publish`
+2. 单独发布子包 ``
 3. 发布整包
+
+发布失败解决的两种方案
+
+- `lerna publish from-git`
+- `git reset --hard HEAD~1 && git tag -d $(git log --date-order --tags --simplify-by-decoration --pretty=format:'%d' | head -1 | tr -d '()' | sed 's/,* tag://g')`
 
 ## Getting Started
 
