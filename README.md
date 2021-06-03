@@ -1,7 +1,7 @@
 # lerna_demo
 
 1. 统一发布所有子包 `lerna publish`
-2. 单独发布子包 ``
+2. 单独发布子包（lerna 可以只发布修改的子包） `lerna publish`
 3. 发布整包
 
 发布失败解决的两种方案
