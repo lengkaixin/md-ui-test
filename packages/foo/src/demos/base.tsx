@@ -1,4 +1,4 @@
 import React from 'react';
-import { Foo } from '@md-ui-test/foo';
+import { Foo } from '@lengkaixin/foo';
 
 export default () => <Foo title="First Demo--- " />;
