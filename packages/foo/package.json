@@ -1,0 +1,28 @@
+{
+  "name": "@md-ui-test/foo",
+  "version": "1.0.0",
+  "description": "组件",
+  "files": [
+    "es",
+    "lib",
+    "*.md"
+  ],
+  "sideEffects": [
+    "**/*.less",
+    "**/*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "antd": "4.16.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

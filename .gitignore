@@ -1,0 +1,16 @@
+.DS_Store
+.nyc_output/
+node_modules/
+packages/*/dist/
+doc_dist/
+lib/
+es/
+coverage/
+.umi/
+.umi-production/
+icons/out/
+lerna-debug.log
+CHANGELOG.md
+dist/
+
+.history

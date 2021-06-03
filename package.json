@@ -1,0 +1,45 @@
+{
+  "private": false,
+  "name": "md-ui-test",
+  "version": "2.0.26",
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "npm run build && npm publish",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage",
+    "bootstrap": "lerna bootstrap",
+    "changelog": "lerna-changelog",
+    "clean": "lerna clean -y",
+    "pub": "npm run build && lerna publish"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@umijs/test": "^3.0.5",
+    "dumi": "^1.0.14",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "lerna": "^4.0.0",
+    "lerna-changelog": "^1.0.1",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.1",
+    "yorkie": "^2.0.0"
+  }
+}
