@@ -1,6 +1,6 @@
 {
   "name": "@md-ui-test/button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "组件",
   "publishConfig": {
     "access": "public"
