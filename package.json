@@ -12,7 +12,7 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",
     "pub": "npm run build && lerna publish"

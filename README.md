@@ -12,6 +12,12 @@ Install dependencies,
 $ npm i
 ```
 
+```
+// 为 packages 安装依赖
+
+npm run bootstrap
+```
+
 Start the dev server,
 
 ```bash
@@ -24,8 +30,14 @@ Build documentation,
 $ npm run docs:build
 ```
 
-Build library via `father-build`,
+Build library via `father-build` ,
 
 ```bash
 $ npm run build
+```
+
+publish
+
+```bash
+$ npm run pub
 ```
