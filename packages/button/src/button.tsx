@@ -1,19 +1,15 @@
-/*
- * @Author: your name
- * @Date: 2021-06-01 17:27:06
- * @LastEditTime: 2021-06-03 13:37:08
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /lerna_demo/packages/button/src/button.tsx
- */
 import React from 'react';
+import { Button } from 'antd';
+
+// import 'antd/dist/antd.less';
+import 'antd/es/button/style';
 
 import './index.less';
 
-const Button = (props: { children: any }) => {
-  const { children } = props;
+const _Button = (props: { children: any }) => {
+  const { children, ...antdProps } = props;
 
-  return <button className="md-button">{children}</button>;
+  return <Button {...antdProps}>{children}</Button>;
 };
 
-export default Button;
+export default _Button;

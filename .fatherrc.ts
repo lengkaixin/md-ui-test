@@ -3,6 +3,13 @@ export default {
   cjs: 'babel',
   lessInBabelMode: true,
   extraBabelPlugins: [
-    ['import', { libraryName: 'antd', libraryDirectory: 'es', style: true }],
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
   ],
 };
