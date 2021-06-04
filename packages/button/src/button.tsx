@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 
 // import 'antd/dist/antd.less';
-import 'antd/es/button/style';
+import 'antd/lib/button/style';
 
 import './index.less';
 

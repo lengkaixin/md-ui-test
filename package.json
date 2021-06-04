@@ -1,7 +1,10 @@
 {
-  "private": false,
+  "private": true,
   "name": "md-ui-test",
   "version": "2.0.26",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -9,10 +12,10 @@
     "build": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "prettier": "prettier --write \"packages/**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",
     "publish": "lerna publish",

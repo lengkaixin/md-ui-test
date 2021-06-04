@@ -8,5 +8,6 @@
       "exact": true
     }
   },
-  "exact": true
+  "exact": true,
+  "useWorkspaces": true
 }
