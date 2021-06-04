@@ -1,7 +1,6 @@
 {
+  "name": "root",
   "private": true,
-  "name": "md-ui-test",
-  "version": "2.0.26",
   "workspaces": [
     "packages/*"
   ],
