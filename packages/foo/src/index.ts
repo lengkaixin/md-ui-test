@@ -1,1 +1,3 @@
-export { default as Foo } from './foo';
+import Foo from './foo';
+
+export default Foo;
