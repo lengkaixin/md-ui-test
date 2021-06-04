@@ -18,7 +18,7 @@
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",
     "publish": "lerna publish",
-    "pub": "npm run build && npm run publish"
+    "pub": " npm run changelog && npm run build && npm run publish"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
