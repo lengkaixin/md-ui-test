@@ -7,9 +7,13 @@ import 'antd/lib/button/style';
 import './index.less';
 
 const _Button = (props: { children: any }) => {
-  const { children, ...antdProps } = props;
+  const { children, color, ...antdProps } = props;
 
-  return <Button {...antdProps}>{children}</Button>;
+  return (
+    <Button style={{ color: color }} {...antdProps}>
+      {children}
+    </Button>
+  );
 };
 
 export default _Button;

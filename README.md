@@ -1,5 +1,7 @@
 # lerna_demo
 
+> 在发布前所有的改动都必须提交 git commit
+
 1. 统一发布所有子包 `lerna publish`
 2. 单独发布子包（lerna 可以只发布修改的子包） `lerna publish`
 3. 发布整包
