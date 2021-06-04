@@ -11,6 +11,16 @@
       "exact": true
     }
   },
-  "exact": true,
+  "changelog": {
+    "repo": "@lengkaxin/components",
+    "cacheDir": ".changelog",
+    "labels": {
+      "pr(enhancement)": ":rocket: Enhancement",
+      "pr(bug)": ":bug: Bug Fix",
+      "pr(documentation)": ":book: Documentation",
+      "pr(dependency)": ":deciduous_tree: Dependency",
+      "pr(chore)": ":turtle: Chore"
+    }
+  },
   "useWorkspaces": true
 }
