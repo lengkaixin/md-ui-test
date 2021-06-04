@@ -3,7 +3,9 @@
   "version": "independent",
   "npmClient": "yarn",
   "command": {
-    "publish": {},
+    "publish": {
+      "registry": "http://172.24.108.245:4873"
+    },
     "init": {
       "exact": true
     }
