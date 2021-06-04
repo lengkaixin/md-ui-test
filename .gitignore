@@ -10,7 +10,6 @@ coverage/
 .umi-production/
 icons/out/
 lerna-debug.log
-CHANGELOG.md
 dist/
 
 .history
