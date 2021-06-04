@@ -4,7 +4,8 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "registry": "http://172.24.108.245:4873"
+      "registry": "http://172.24.108.245:4873",
+      "conventionalCommits": true
     },
     "init": {
       "exact": true
