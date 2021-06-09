@@ -1,3 +1,9 @@
 import React from 'react';
 
-export default ({ title }: { title: string }) => <h1>{title}</h1>;
+// import './index.less';
+
+const Foo = ({ title }: { title: string }) => {
+  return <h1 className="foo-title">{title}</h1>;
+};
+
+export default Foo;

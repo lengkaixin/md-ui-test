@@ -9,4 +9,6 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
+  // more antd theme : // https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+  theme: { '@primary-color': '#E60023', '@rrrred': 'blue' },
 });
