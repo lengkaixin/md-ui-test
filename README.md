@@ -1,4 +1,4 @@
-# lerna_demo
+# Monkey Design
 
 > 在发布前所有的改动都必须提交 git commit
 
